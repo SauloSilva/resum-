@@ -1,0 +1,159 @@
+{
+  "metas": {
+    "/404/": {
+      "title": "404 - ",
+      "description": "Esta página não foi encontrada :("
+    },
+    "/": {
+      "title": "",
+      "description": "Desenvolvedor Ruby/Javascript, amante da programação e tudo que envolve tecnologia."
+    },
+    "/informations/": {
+      "title": "Informações - ",
+      "description": "Informações pessoais: telefone, email e skype."
+    },
+    "/skills/": {
+      "title": "Habilidades - ",
+      "description": "Habilidades desenvolvidas durante a carreira."
+    },
+    "/experiences/": {
+      "title": "Experiências - ",
+      "description": "Empresas onde colaborei/colaboro e os projetos que participei."
+    },
+    "/free-time/": {
+      "title": "Horas vagas - ",
+      "description": "O que faço nas horas vagas."
+    },
+    "/courses/": {
+      "title": "Cursos - ",
+      "description": "Cursos que participei."
+    }
+  },
+  "home": {
+    "name": "Saulo da Silva Santiago",
+    "role": "Desenvolvedor Ruby/Javascript",
+    "phone": "(018) 8190-6767",
+    "email": "saulodasilvasantiago@gmail.com",
+    "skype": "saulo.desenv",
+    "location": "Birigui - SP",
+    "geo": "http://goo.gl/kwkFc8",
+    "homepage": "http://goo.gl/SENxyu",
+    "meta": {
+
+    }
+  },
+  "informations": [
+    { "strength": "23 anos" },
+    { "strength": "Solteiro" },
+    { "strength": "Graduado em Ciências da Computação" },
+    { "strength": "Adoro programar" },
+    { "strength": "Sempre disposto a aprender coisas novas" },
+    { "strength": "Gosto de desafios" }
+  ],
+  "skills": {
+    "Front end": [
+      { "skill": "Javascript/Coffeescript" },
+      { "skill": "Css/Sass" },
+      { "skill": "Haml/Html5" }
+    ],
+
+    "Databases": [
+      { "skill": "MySQL" },
+      { "skill": "MongoDB" },
+      { "skill": "Redis" }
+    ],
+
+    "Back end": [
+      { "skill": "Ruby" },
+      { "skill": "Node" },
+      { "skill": "PHP" },
+      { "skill": "Java" }
+    ],
+
+    "Infra": [
+      { "skill": "Amazon EC2" },
+      { "skill": "Nginx" },
+      { "skill": "Passenger" },
+      { "skill": "Git" },
+      { "skill": "Linux" }
+    ],
+
+    "Frameworks": [
+      { "skill": "Rails" },
+      { "skill": "Sinatra" },
+      { "skill": "Express" },
+      { "skill": "Jquery" },
+      { "skill": "Backbone" },
+      { "skill": "Marionette" },
+      { "skill": "Android" }
+    ]
+  },
+  "expiriences": [{
+      "company": "Click Jogos - NZN",
+      "role": "Back-end e Front-end",
+      "period": "03/2012 - 2015 (Emprego atual)",
+      "jobDescription": "Desenvolvedor Ruby, Javascript e Java. Trabalho para os seguintes projetos:",
+      "jobs": [
+        { "title": "Click Jogos", "url": "http://goo.gl/HXqq2d" },
+        { "title": "Jogos de Meninas", "url": "http://goo.gl/PPktNu" },
+        { "title": "Joguinhos", "url": "http://goo.gl/YA5W2z" },
+        { "title": "Mobile Web", "url": "http://goo.gl/Bd4SZF" },
+        { "title": "Dev center", "url": "http://goo.gl/HMtF7i" },
+        { "title": "APP Click Jogos", "url": "http://goo.gl/w2HSU0" }
+      ]
+    }, {
+      "company": "Voraz",
+      "role": "Back-end e Front-end",
+      "period": "09/2010 - 03/2012",
+      "jobDescription": "Local onde iniciei minha carreira no mundo Ruby. Participei de vários projetos, foram eles:",
+      "jobs": [
+        { "title": "Psychemedics", "url": "http://goo.gl/wDiRzG" },
+        { "title": "Shell/Azul/TAM", "url": "http://goo.gl/wDiRzG" },
+        { "title": "Scabu", "url": "http://goo.gl/aLtJSt" },
+        { "title": "Mundial Editora", "url": "http://goo.gl/Hwaopb" },
+        { "title": "Miluka", "url": "http://goo.gl/IKiVpc" },
+        { "title": "Sinbi", "url": "http://goo.gl/7U6R99" }
+      ]
+    }, {
+      "company": "Blue Studio",
+      "role": "Back-end e Front-end",
+      "period": "09/2009 - 09/2010",
+      "jobDescription": "Local onde iniciei minha carreira na programação. Neste período trabalhei em vários projetos utilizando PHP e Asp, dentre eles os principais projetos foram:",
+      "jobs": [
+        { "title": "Magnoflux", "url": "http://goo.gl/U44Bup" },
+        { "title": "Microway", "url": "http://goo.gl/9cX0tz" },
+        { "title": "Brasil Treina", "url": "http://goo.gl/hT5U06" },
+        { "title": "Di Pérola", "url": "http://goo.gl/O1o51n" },
+        { "title": "Projeto Agape", "url": "http://goo.gl/WCX9rX" }
+      ]
+    }
+  ],
+  "freeTime": [
+    { "activity": "Contribuições para comunidades open sources", "href": null },
+    { "activity": "Em constante estudo com Node, Rails, Javascript", "href": null }
+  ],
+  "courses": [
+    { "title": "Rails for zombies", "school": "Code School" },
+    { "title": "Rails testing for zombies", "school": "Code School" },
+    { "title": "Rails best pratices", "school": "Code School" },
+    { "title": "Rails patterns", "school": "Code School" },
+    { "title": "Javascript best pratices", "school": "Code School" },
+    { "title": "Ember", "school": "Code School" },
+    { "title": "Rails Api", "school": "Code School" },
+    { "title": "Desenvolvimento Web com Rails", "school": "Howtocode" },
+    { "title": "Configurando servidor para deploy", "school": "Howtocode" },
+    { "title": "Ember", "school": "Howtocode" },
+    { "title": "NodeJS", "school": "Caelum" },
+    { "title": "Usando Socket.IO com Node.js", "school": "Howtocode" },
+    { "title": "Html5 e Css3", "school": "Caelum" },
+    { "title": "Android developer", "school": "Treehouse" },
+    { "title": "Inglês", "school": "Cursando na phraseMix" }
+
+  ],
+  "socials": [
+    { "name": "linkedin", "href": "http://goo.gl/Ss1Qh" },
+    { "name": "github", "href": "http://goo.gl/gLDNci" },
+    { "name": "bitbucket", "href": "http://goo.gl/7usY3g"},
+    { "name": "facebook", "href": "http://goo.gl/M7tER" }
+  ]
+}

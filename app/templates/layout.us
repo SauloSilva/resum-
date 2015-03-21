@@ -1,0 +1,9 @@
+<div class='load_region'></div>
+<div class='home_region' data-path='/'></div>
+<div class='informations_region' data-path='/informations/'></div>
+<div class='skill_region' data-path='/skills/'></div>
+<div class='expiriences_region' data-path='/experiences/'></div>
+<div class='graduation_region' data-path='/graduation/'></div>
+<div class='free_time_region' data-path='/free-time/'></div>
+<div class='courses_region' data-path='/courses/'></div>
+<div class='footer_region'></div>

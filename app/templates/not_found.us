@@ -1,0 +1,8 @@
+<div class='content'>
+  <h1> Saulo da Silva Santiago </h1>
+  <div class='image_animation'></div>
+  <img src='/img/not_found.gif' alt='space invaders'/>
+  <h2 class='status'> 404 </h2>
+  <p class='message'> Página não encontrada </p>
+  <a class='back'> Voltar para a home </a>
+</div>

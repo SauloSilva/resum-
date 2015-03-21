@@ -1,0 +1,5 @@
+<div class='socials_region text-center'></div>
+
+<div itemprop='rating' itemscope itemtype='http://data-vocabulary.org/Rating'>
+   <meta itemprop='best' content='10' />
+</div>

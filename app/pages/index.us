@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Saulo da Silva Santiago</title>
+    <meta charset='utf-8'>
+    <meta name='description' content='Desenvolvedor Ruby/Javascript, graduado em Ciências da Computação, adoro programar, sempre disposto a aprender coisas novas, adoro desafios.' />
+    <meta name='google-site-verification' content='7UAMt9x489w6r9vXrKiJr9ePh01m-5CfRyzhuqlnD5U' />
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='shortcut icon' href='/favicon.ico' type='image/x-icon'>
+    <link rel='icon' href='/favicon.ico' type='image/x-icon'>
+    <link rel='stylesheet' type='text/css' href='/<%= css %>' media='all'/>
+  </head>
+
+  <body>
+    <div data-region='profile' itemscope itemtype='http://data-vocabulary.org/Person'></div>
+    <script type='text/javascript' src='/<%= js %>' defer></script>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+{
+  "name": "resume saulo",
+  "version": "0.0.0",
+  "authors": [
+    "saulo da silva santiago <saulodasilvasantiago@gmail.com>"
+  ],
+  "description": "resume saulo da silva santiago",
+  "main": "config/server.js",
+  "keywords": [
+    "saulo",
+    "developer",
+    "front-end",
+    "back-end"
+  ],
+  "license": "MIT",
+  "homepage": "saulosantiago.com.br",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor/js",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "2.1.0",
+    "marionette": "*",
+    "requirejs": "*",
+    "spinjs": "*",
+    "bootstrap": "*"
+  }
+}

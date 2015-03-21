@@ -1,0 +1,22 @@
+<div class="panel panel-default">
+  <div class="panel-heading clearfix">
+    <div class='pull-left'>
+      <h4 itemprop='affiliation'> <%= company %> </h4>
+      <span> <%= role %> </span>
+    </div>
+
+    <div class='pull-right margin-top-22'>
+      <span class='badge'>
+        <%= period %>
+      </span>
+    </div>
+  </div>
+
+  <div class="panel-body">
+    <%= jobDescription %>
+
+    <div class="list-group margin-top-10">
+      <ul class='experiences_region'></ul>
+    </div>
+  </div>
+</div>

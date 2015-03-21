@@ -1,0 +1,32 @@
+<div class='text-center'>
+  <h1 itemprop='name'>
+    <a href=<%= homepage %> itemprop='url'>
+      <%= name %>
+    </a>
+  </h1>
+
+  <p itemprop='role'> <%= role %> </p>
+
+  <img src='/img/saulo.png' class='img-circle' width=70 height=70 itemprop='photo'/>
+
+  <div class='margin-top-10' itemprop='address' itemscope itemtype='http://data-vocabulary.org/Address'>
+    <small class='clearfix'>
+      <b> MORO EM: </b>
+      <a href=<%= geo %> target='_blank' itemprop='country-name'>
+        <%= location %>
+      </a>
+    </small>
+
+    <small class='clearfix'>
+      <b> TELEFONE: </b> <%= phone %>
+    </small>
+
+    <small class='clearfix'>
+      <b> GTALK / GMAIL: </b> <%= email %>
+    </small>
+
+    <small class='clearfix'>
+      <b> SKYPE: </b> <%= skype %>
+    </small>
+  </div>
+</div>

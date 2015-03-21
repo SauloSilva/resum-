@@ -1,0 +1,20 @@
+{
+  "name": "resume",
+  "description": "Resume of saulo",
+  "version": "0.0.1",
+  "private": true,
+  "author": "Saulo da Silva Santiago",
+  "homepage": "http://saulosantiago.com.br/",
+  "dependencies": {
+    "grunt-contrib-sass": "0.8.1",
+    "grunt-sitemap": "git://github.com/SauloSilva/grunt-sitemap.git#master",
+    "grunt-file-creator": "^0.1.2",
+    "lineman": "^0.34.0",
+    "lineman-bower": "0.0.5"
+  },
+  "scripts": {
+    "start": "lineman run",
+    "test": "lineman spec-ci"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,9 @@
+<% if (url) { %>
+  <a href=<%= url %> target='_blank' class='list-group-item'>
+    <%= title %>
+  </a>
+<% } else { %>
+  <a class='list-group-item'>
+    <%= title %>
+  </a>
+<% } %>
