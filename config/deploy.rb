@@ -1,4 +1,4 @@
-lock '3.2.1'
+lock '3.4.0'
 
 set :application, 'resume'
 set :repo_url, 'git@github.com:SauloSilva/resum-.git'
