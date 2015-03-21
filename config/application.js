@@ -30,11 +30,11 @@ module.exports = function(lineman) {
     // File creator
     'file-creator': {
       "basic": {
-        "dist/informations.html": function(fs, fd, done) { done(); },
-        "dist/skills.html": function(fs, fd, done) { done(); },
-        "dist/experiences.html": function(fs, fd, done) { done(); },
-        "dist/free-time.html": function(fs, fd, done) { done(); },
-        "dist/courses.html": function(fs, fd, done) { done(); }
+        "dist/informacoes.html": function(fs, fd, done) { done(); },
+        "dist/habilidades.html": function(fs, fd, done) { done(); },
+        "dist/experiencias.html": function(fs, fd, done) { done(); },
+        "dist/tempo-livre.html": function(fs, fd, done) { done(); },
+        "dist/cursos.html": function(fs, fd, done) { done(); }
       }
     },
 
