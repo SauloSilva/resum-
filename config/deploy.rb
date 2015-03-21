@@ -1,7 +1,7 @@
 lock '3.2.1'
 
 set :application, 'resume'
-set :repo_url, 'git@bitbucket.org:saulosantiago/resum.git'
+set :repo_url, 'git@github.com:SauloSilva/resum-.git'
 set :branch, 'master'
 
 set :deploy_to, '/home/resume/www/'
