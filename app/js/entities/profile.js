@@ -15,9 +15,9 @@ this.Resume.module('Entities', function(Entities, App, Backbone, Marionette, $, 
     }
   });
 
-  Entities.Informations = Backbone.Collection.extend({
+  Entities.Information = Backbone.Collection.extend({
     addModels: function(resume) {
-      this.add(resume.get('informations'));
+      this.add(resume.get('information'));
     }
   });
 
@@ -97,8 +97,8 @@ this.Resume.module('Entities', function(Entities, App, Backbone, Marionette, $, 
       return new Entities.Home(resume);
     },
 
-    getInformations: function(resume) {
-      var collection = new Entities.Informations();
+    getInformation: function(resume) {
+      var collection = new Entities.Information();
       collection.addModels(resume);
       return collection;
     },
@@ -146,8 +146,8 @@ this.Resume.module('Entities', function(Entities, App, Backbone, Marionette, $, 
     return API.getHome(resume);
   });
 
-  App.reqres.setHandler('informations:entities', function(resume) {
-    return API.getInformations(resume);
+  App.reqres.setHandler('information:entities', function(resume) {
+    return API.getInformation(resume);
   });
 
   App.reqres.setHandler('skills:groups:entities', function(resume) {

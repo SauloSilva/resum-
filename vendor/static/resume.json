@@ -8,23 +8,23 @@
       "title": "",
       "description": "Desenvolvedor Ruby/Javascript, amante da programação e tudo que envolve tecnologia."
     },
-    "/informations/": {
+    "/informacoes/": {
       "title": "Informações - ",
       "description": "Informações pessoais: telefone, email e skype."
     },
-    "/skills/": {
+    "/habilidades/": {
       "title": "Habilidades - ",
       "description": "Habilidades desenvolvidas durante a carreira."
     },
-    "/experiences/": {
+    "/experiencias/": {
       "title": "Experiências - ",
       "description": "Empresas onde colaborei/colaboro e os projetos que participei."
     },
-    "/free-time/": {
+    "/tempo-livre/": {
       "title": "Horas vagas - ",
       "description": "O que faço nas horas vagas."
     },
-    "/courses/": {
+    "/cursos/": {
       "title": "Cursos - ",
       "description": "Cursos que participei."
     }
@@ -42,7 +42,7 @@
 
     }
   },
-  "informations": [
+  "information": [
     { "strength": "23 anos" },
     { "strength": "Solteiro" },
     { "strength": "Graduado em Ciências da Computação" },

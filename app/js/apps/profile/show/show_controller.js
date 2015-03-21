@@ -19,7 +19,7 @@ this.Resume.module('ProfileApp.Show', function(Show, App, Backbone, Marionette, 
 
     init: function() {
       this.homeEntity = App.request('home:entity', this.resume);
-      this.informationEntities = App.request('informations:entities', this.resume);
+      this.informationEntities = App.request('information:entities', this.resume);
       this.skillsGroupsEntities = App.request('skills:groups:entities', this.resume);
       this.experiencesGroupsEntities = App.request('experiences:groups:entities', this.resume);
       this.freeTimeEntities = App.request('free:time:entities', this.resume);
@@ -69,12 +69,12 @@ this.Resume.module('ProfileApp.Show', function(Show, App, Backbone, Marionette, 
     },
 
     informationsRegion: function () {
-      informationsView = this.getInformationsView();
-      this.layout.informationsRegion.show(informationsView);
+      informationView = this.getInformationView();
+      this.layout.informationRegion.show(informationView);
     },
 
-    getInformationsView: function() {
-      return new Show.InformationsView({
+    getInformationView: function() {
+      return new Show.InformationView({
         collection: this.informationEntities
       });
     },

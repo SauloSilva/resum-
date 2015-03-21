@@ -5,10 +5,9 @@ this.Resume.module('ProfileApp.Show', function(Show, App, Backbone, Marionette, 
     regions: {
       loadRegion: '.load_region',
       homeRegion: '.home_region',
-      informationsRegion: '.informations_region',
+      informationRegion: '.information_region',
       skillsRegion: '.skill_region',
       experiencesRegion: '.expiriences_region',
-      graduationRegion: '.graduation_region',
       freeTimeRegion: '.free_time_region',
       coursesRegion: '.courses_region',
       footerRegion: '.footer_region'
@@ -36,15 +35,15 @@ this.Resume.module('ProfileApp.Show', function(Show, App, Backbone, Marionette, 
     className: 'jumbotron'
   });
 
-  Show.InformationView = Marionette.ItemView.extend({
-    template: 'information.us',
+  Show.StrengthView = Marionette.ItemView.extend({
+    template: 'strength.us',
     tagName: 'li'
   });
 
-  Show.InformationsView = Marionette.CompositeView.extend({
-    template: 'informations.us',
-    childViewContainer: '.informations_region',
-    childView: Show.InformationView,
+  Show.InformationView = Marionette.CompositeView.extend({
+    template: 'information.us',
+    childViewContainer: '.information_region',
+    childView: Show.StrengthView,
     className: 'row-fluid margin-top-40'
   });
 

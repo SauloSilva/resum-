@@ -1,1 +1,13 @@
-<%= strength %>
+<div class='col-xs-12 col-sm-6 col-md-4 col-lg-4 center clearfix'>
+  <code>
+    <b>function</b>
+      information()
+    <b>{</b>
+  </code>
+
+  <ul class='information_region margin-top-22'></ul>
+
+  <code>
+    <b>};</b>
+  </code>
+</div>
