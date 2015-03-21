@@ -14,7 +14,7 @@ this.Resume.module('ProfileApp', function(ProfileApp, App, Backbone, Marionette,
     },
 
     show: function(region) {
-      new ProfileApp.Show.Controller(region);
+      new ProfileApp.Show.Controller(this.pathToRegion(region));
       App.vent.trigger('path:visited', this.pathToRegion(region));
     }
   };

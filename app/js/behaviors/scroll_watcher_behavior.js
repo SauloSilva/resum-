@@ -11,28 +11,22 @@ this.Resume.module('Behaviors', function(Behaviors, App, Backbone, Marionette, $
         _this.check();
       });
 
-      App.vent.on('scroll:to', function(regionName) {
-        if (_.isEmpty(regionName)) { return; }
-        regionName = _this.regionNameFormat(regionName);
-        var region = _this.view.getRegions()[regionName + 'Region'];
+      App.vent.on('scroll:to', function(path) {
+        if (_.isEmpty(path) || path == '/') { return; }
+        var element = _this.getElementByPath(path);
 
-        if (_.isEmpty(region)) {
+        if (_.isEmpty(element[0])) {
           App.vent.trigger('not:found');
           _this.window.off('scroll');
         } else {
-          var offsetTop = region.$el.offset().top;
+          var offsetTop = element.offset().top;
           _this.window.scrollTop(offsetTop);
         }
       });
     },
 
-    regionNameFormat: function(regionName) {
-      if (regionName.match(/\-/)) {
-        names = regionName.split('-');
-        return _.first(names) + _.last(names).charAt(0).toUpperCase() + _.last(names).slice(1);
-      } else {
-        return regionName;
-      }
+    getElementByPath: function(path) {
+      return this.view.$el.find('div[data-path="'+ path +'"]');
     },
 
     check: function() {
