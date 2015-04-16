@@ -54,13 +54,15 @@
     "Front end": [
       { "skill": "Javascript/Coffeescript" },
       { "skill": "Css/Sass" },
-      { "skill": "Haml/Html5" }
+      { "skill": "Haml/Html5" },
+      { "skill": "MVCSS/Bootstrap" }
     ],
 
     "Databases": [
       { "skill": "MySQL" },
-      { "skill": "MongoDB" },
-      { "skill": "Redis" }
+      { "skill": "Mongo" },
+      { "skill": "Redis" },
+      { "skill": "Memcached" }
     ],
 
     "Back end": [
@@ -86,6 +88,14 @@
       { "skill": "Backbone" },
       { "skill": "Marionette" },
       { "skill": "Android" }
+    ],
+
+    "Tests": [
+      { "skill": "Rspec" },
+      { "skill": "Test unit" },
+      { "skill": "MiniTest" },
+      { "skill": "Mocha" },
+      { "skill": "Jasmine" }
     ]
   },
   "expiriences": [{
@@ -96,10 +106,13 @@
       "jobs": [
         { "title": "Click Jogos", "url": "http://goo.gl/HXqq2d" },
         { "title": "Jogos de Meninas", "url": "http://goo.gl/PPktNu" },
+        { "title": "Jogos de Meninas Mobile", "url": "http://goo.gl/R3V52Z" },
         { "title": "Joguinhos", "url": "http://goo.gl/YA5W2z" },
+        { "title": "Joguinhos Mobile", "url": "http://goo.gl/OB061x" },
         { "title": "Mobile Web", "url": "http://goo.gl/Bd4SZF" },
         { "title": "Dev center", "url": "http://goo.gl/HMtF7i" },
-        { "title": "APP Click Jogos", "url": "http://goo.gl/w2HSU0" }
+        { "title": "APP Click Jogos", "url": "http://goo.gl/w2HSU0" },
+        { "title": "Minha série", "url": "http://goo.gl/H2M0Uv" }
       ]
     }, {
       "company": "Voraz",
@@ -123,8 +136,7 @@
         { "title": "Magnoflux", "url": "http://goo.gl/U44Bup" },
         { "title": "Microway", "url": "http://goo.gl/9cX0tz" },
         { "title": "Brasil Treina", "url": "http://goo.gl/hT5U06" },
-        { "title": "Di Pérola", "url": "http://goo.gl/O1o51n" },
-        { "title": "Projeto Agape", "url": "http://goo.gl/WCX9rX" }
+        { "title": "Perth Divulgações", "url": "http://goo.gl/lKQOGx" }
       ]
     }
   ],
