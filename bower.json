@@ -30,5 +30,9 @@
     "spinjs": "*",
     "bootstrap": "*",
     "loadcss": "~0.1.6"
+  },
+
+  "resolutions": {
+    "underscore": "~1.6.0"
   }
 }
