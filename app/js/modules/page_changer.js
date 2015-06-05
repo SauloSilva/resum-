@@ -6,13 +6,13 @@ this.Resume.module('PageChanger', function(PageChanger, App, Backbone, Marionett
       var route = this.urlFor(path);
       var _this = this;
 
-      if (_this.currentPath() != route) {
+      if (_this.currentPath() !== route) {
         if (!_.isNull(timeout)) {
           clearTimeout(timeout);
         }
 
         timeout = setTimeout(function() {
-          App.vent.trigger('path:visited', path)
+          App.vent.trigger('path:visited', path);
           Backbone.history.navigate(path, options);
           _this.trackPageView();
         }, 500);

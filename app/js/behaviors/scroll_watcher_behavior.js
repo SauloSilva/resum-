@@ -12,15 +12,15 @@ this.Resume.module('Behaviors', function(Behaviors, App, Backbone, Marionette, $
       });
 
       App.vent.on('scroll:to', function(path) {
-        if (_.isEmpty(path) || path == '/') { return; }
+        if (_.isEmpty(path) || path === '/') { return; }
         var element = _this.getElementByPath(path);
 
-        if (_.isEmpty(element[0])) {
-          App.vent.trigger('not:found');
-          _this.window.off('scroll');
-        } else {
+        if (_.isElement(element[0])) {
           var offsetTop = element.offset().top;
           _this.window.scrollTop(offsetTop);
+        } else {
+          App.vent.trigger('not:found');
+          _this.window.off('scroll');
         }
       });
     },
