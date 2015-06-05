@@ -29,5 +29,9 @@
     "requirejs": "*",
     "spinjs": "*",
     "bootstrap": "*"
+  },
+
+  "resolutions": {
+    "underscore": "~1.6.0"
   }
 }
