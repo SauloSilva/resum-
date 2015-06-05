@@ -22,5 +22,9 @@ this.Resume = (function(Backbone, Marionette) {
 })(Backbone, Marionette);
 
 $(document).ready(function() {
-  Resume.start();
+  var stylesheet = loadCSS(location.protocol + '//' + location.host + '/css/app.css');
+
+  onloadCSS( stylesheet, function() {
+    Resume.start();
+  });
 });

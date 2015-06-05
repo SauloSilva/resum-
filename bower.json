@@ -28,6 +28,7 @@
     "marionette": "*",
     "requirejs": "*",
     "spinjs": "*",
-    "bootstrap": "*"
+    "bootstrap": "*",
+    "loadcss": "~0.1.6"
   }
 }

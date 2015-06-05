@@ -52,13 +52,13 @@ this.Resume.module('PageChanger', function(PageChanger, App, Backbone, Marionett
 
       return route.replace(/\/\//g, '/');
     }
-  },
+  };
 
   API = {
     visit: function(path) {
       PageChanger.Changer.navigate(path);
     }
-  },
+  };
 
   App.vent.on('visit page:rolled', function(path) {
     API.visit(path);

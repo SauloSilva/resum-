@@ -6,41 +6,39 @@
     },
     "/": {
       "title": "",
-      "description": "Desenvolvedor Ruby/Javascript, amante da programação e tudo que envolve tecnologia."
+      "description": "Desenvolvedor Ruby/Javascript com mais de 4 anos de experiência e gosto muito do que faço."
     },
     "/informacoes/": {
       "title": "Informações - ",
-      "description": "Informações pessoais: telefone, email e skype."
+      "description": "Veja informações pessoais como: telefone, email e skype."
     },
     "/habilidades/": {
       "title": "Habilidades - ",
-      "description": "Habilidades desenvolvidas durante a carreira."
+      "description": "Veja todas as experiências que conquistei durante minha carreira profissional."
     },
     "/experiencias/": {
       "title": "Experiências - ",
-      "description": "Empresas onde colaborei/colaboro e os projetos que participei."
+      "description": "Veja os projetos que participei nas empresas onde trabalhei e trabalho atualmente."
     },
     "/tempo-livre/": {
       "title": "Horas vagas - ",
-      "description": "O que faço nas horas vagas."
+      "description": "Saiba de algumas coisas interessantes que faço nas minhas horas vagas."
     },
     "/cursos/": {
       "title": "Cursos - ",
-      "description": "Cursos que participei."
+      "description": "Fique por dentro de todos os cursos que participei."
     }
   },
   "home": {
     "name": "Saulo da Silva Santiago",
     "role": "Desenvolvedor Ruby/Javascript",
-    "phone": "(018) 8190-6767",
+    "phone": "(018) 98190-6767",
+    "blog": "saulosantiago.js.org",
     "email": "saulodasilvasantiago@gmail.com",
     "skype": "saulo.desenv",
     "location": "Birigui - SP",
     "geo": "http://goo.gl/kwkFc8",
-    "homepage": "http://goo.gl/SENxyu",
-    "meta": {
-
-    }
+    "homepage": "http://goo.gl/SENxyu"
   },
   "information": [
     { "strength": "23 anos" },
@@ -48,7 +46,7 @@
     { "strength": "Graduado em Ciências da Computação" },
     { "strength": "Adoro programar" },
     { "strength": "Sempre disposto a aprender coisas novas" },
-    { "strength": "Gosto de desafios" }
+    { "strength": "Viciado na cafeína" }
   ],
   "skills": {
     "Front end": [
@@ -141,6 +139,7 @@
     }
   ],
   "freeTime": [
+    { "activity": "Escrevo posts sobre programação para o meu blog", "href": "http://saulosantiago.js.org" },
     { "activity": "Contribuições para comunidades open sources", "href": null },
     { "activity": "Em constante estudo com Node, Rails, Javascript", "href": null }
   ],
