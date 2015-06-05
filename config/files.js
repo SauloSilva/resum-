@@ -10,9 +10,7 @@ module.exports = function(lineman) {
         "vendor/js/backbone.wreqres/lib/backbone.wreqres.js",
         "vendor/js/marionette/lib/backbone.marionette.js",
         "vendor/js/boostrap/dist/js/boostrap.js",
-        "vendor/js/spinjs/spin.js",
-        "vendor/js/loadcss/loadCSS.js",
-        "vendor/js/loadcss/onloadCSS.js"
+        "vendor/js/spinjs/spin.js"
       ]
     },
   };

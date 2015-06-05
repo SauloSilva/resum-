@@ -26,6 +26,13 @@
     </small>
 
     <small class='clearfix'>
+      <b> Blog: </b>
+      <a href= <%= blog%> target='_blank'>
+        <%= blog %>
+      </a>
+    </small>
+
+    <small class='clearfix'>
       <b> SKYPE: </b> <%= skype %>
     </small>
   </div>
